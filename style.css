@@ -40,52 +40,134 @@
     border-radius: 5px;
     color: white;
     font-size: 14px;
-    position: center;
 }
 
 /* Section Area Start */
-.container{
-    margin: 100px 200px;
+.section {
+    margin: 100px 200px 0px;
 
 }
-.about h3{
+
+.about h3 {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 14px;
 }
-.about p{
+
+.about p {
     text-align: center;
     font-size: 20px;
     padding-bottom: 14px;
     color: rgb(158, 152, 152);
+    margin: 0px 200px 10px;
 }
-.box{
+
+.box {
     display: flex;
     padding: 30px;
 }
 
-.box .baby{
+.box .baby {
     width: 100px;
     height: 60px;
-    background-color:rgb(248, 241, 241) ;
+    background-color: rgb(248, 241, 241);
     border: 1px solid rgb(248, 241, 241);
     margin: 10px 20px;
     text-align: center;
     padding: 25px 10px 10px;
-    color:rgb(158, 152, 152) ;
+    color: rgb(158, 152, 152);
     font-size: 35px;
     border-radius: 5px;
     font-weight: 700;
 }
-.box .baby-box-2{
-    background-color:rgb(235, 195, 195) ;
+
+.box .baby-box-2 {
+    background-color: rgb(235, 195, 195);
     border: 1px solid rgb(238, 92, 92);
 }
-.container h5{
+
+.section h5 {
     text-align: center;
-    font: size 45px; ;
+    font: size 45px;
+    ;
     font-weight: 400;
-    color:rgb(158, 152, 152) ;
-    padding-bottom:10px ;
+    color: rgb(158, 152, 152);
+    padding-bottom: 10px;
+}
+
+/* Family section Start */
+.family {
+    display: flex;
+    margin: 50px 200px;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+.family-desc {
+    padding: 40px 30px 10px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    height: 230px;
+}
+
+.family-desc h3 {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.family-desc p {
+    font-size: 16px;
+    padding-bottom: 14px;
+    color: rgb(158, 152, 152);
+    text-align: left;
+}
+
+
+
+.food {
+    background-color: rgb(215, 219, 228);
+}
+
+.shelter {
+    background-color: rgb(230, 216, 221);
+}
+
+.education {
+    background-color: rgb(238, 207, 196);
+}
+
+/* This is depend section Start */
+
+
+.depend-people h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.depend-people p{
+    font-size: 20px;
+   padding: 30px 30px 10px;
+    color: rgb(158, 152, 152);
+    text-align: left;
+}
+.depend-people .text-btn{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(236, 51, 76);
+    border: 1px solid rgb(236, 51, 76);
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+ .depend-image img{
+    width: 400px;
+    height:450px;
+    padding: 0px 20px 10px;
+    margin:0px 20px 10px;
+    border-radius: 5px;
 }
